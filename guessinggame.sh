@@ -1,4 +1,5 @@
 function guess {
+  echo "Santiago Azamar - The Unix Workbench"
   a=$(find . -type f | wc -l)
   while [ "$a" != "$b" ]
   do
